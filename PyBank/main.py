@@ -7,7 +7,7 @@ line = "-" *28
 # main function
 def main():
     # paths to input and output files
-    input_file = os.path.join(sys.path[0],"Resources", "budget_data.csv")
+    input_file = os.path.join(sys.path[0], "budget_data.csv")
     output_file = os.path.join(sys.path[0], "budget_analysis.txt") 
 
     # initalize variables
